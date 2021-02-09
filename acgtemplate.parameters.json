@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "webAppName": {
+            "value": "AzureLinuxApp"
+        },
+        "sku": {
+            "value": "S1"
+        },
+        "linuxFxVersion": {
+            "value": "php|7.4"
+        },
+        "location": {
+            "value": "" // TODO: Fill in parameter value
+        }
+    }
+}
